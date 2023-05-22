@@ -24,7 +24,7 @@
 <!-- BLOG-POST-LIST:START -->
 - [webpack持久化缓存](https://github.com/JayFate/JayFate/issues/1)
 - [docker 学习笔记](https://github.com/JayFate/JayFate/issues/2)
-- [中国国内至国际骨干 ISP 线路整理](https://www.JayFate.net/tutorial/633?pk_campaign=feed&pk_kwd=%25e4%25b8%25ad%25e5%259b%25bd%25e5%259b%25bd%25e5%2586%2585%25e8%2587%25b3%25e5%259b%25bd%25e9%2599%2585%25e9%25aa%25a8%25e5%25b9%25b2-isp-%25e7%25ba%25bf%25e8%25b7%25af%25e6%2595%25b4%25e7%2590%2586)
+- [Mac 安装及配置 oh-my-zsh](https://github.com/JayFate/JayFate/issues/4)
 - [为 win11 安卓子系统（WSA）内 APP 设置桌面快捷方式](https://www.JayFate.net/tutorial/630?pk_campaign=feed&pk_kwd=%25e4%25b8%25ba-win11-%25e5%25ae%2589%25e5%258d%2593%25e5%25ad%2590%25e7%25b3%25bb%25e7%25bb%259f%25ef%25bc%2588wsa%25ef%25bc%2589%25e5%2586%2585-app-%25e8%25ae%25be%25e7%25bd%25ae%25e6%25a1%258c%25e9%259d%25a2%25e5%25bf%25ab%25e6%258d%25b7%25e6%2596%25b9%25e5%25bc%258f)
 - [AI 绘画与作画  stable diffusion webui 常见模型汇总及简介](https://www.JayFate.net/tutorial/583?pk_campaign=feed&pk_kwd=ai-%25e7%25bb%2598%25e7%2594%25bb%25e4%25b8%258e%25e4%25bd%259c%25e7%2594%25bb-stable-diffusion-webui-%25e5%25b8%25b8%25e8%25a7%2581%25e6%25a8%25a1%25e5%259e%258b%25e6%25b1%2587%25e6%2580%25bb%25e5%258f%258a%25e7%25ae%2580%25e4%25bb%258b)
 <!-- BLOG-POST-LIST:END -->
