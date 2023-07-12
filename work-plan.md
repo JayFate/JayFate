@@ -69,3 +69,22 @@ function getDepHash(config, ssr) {
     return getHash(content);
 }
 ```
+
+简化 sortedPluginsCache
+
+```ts
+export function createPluginHookUtils(
+  plugins: readonly Plugin[],
+): PluginHookUtils {
+  // sort plugins per hook
+  const sortedPluginsCache = new Map<keyof Plugin, Plugin[]>()
+  function getSortedPlugins(hookName: keyof Plugin): Plugin[] {
+    if (sortedPluginsCache.has(hookName))
+      return sortedPluginsCache.get(hookName)!
+    const sorted = getSortedPluginsByHook(hookName, plugins)
+    sortedPluginsCache.set(hookName, sorted)
+    return sorted
+  }
+...
+}
+```
