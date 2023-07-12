@@ -40,3 +40,32 @@ extensions/multi-device-previewer/frontend/src/helper/screen.js
 1. 小程序、Vue、React
 2. Rust
 3. 算法、Leetcode
+
+
+# vite
+
+```ts
+// 1. 简化 getDepHash 的查找链路
+// 2. 优化 if (lockfilePath) {} 及上面的 lockfilePath ? fs$l.readFileSync(lockfilePath, 'utf-8') : '';
+function getDepHash(config, ssr) {
+    // 第一部分：获取配置文件初始化content
+    const lockfilePath = lookupFile(config.root, lockfileNames);
+    let content = lockfilePath ? fs$l.readFileSync(lockfilePath, 'utf-8') : '';
+    // 第二部分：检测是否存在patches文件夹，增加content的内容
+    if (lockfilePath) {
+        //...
+        const fullPath = path$o.join(path$o.dirname(lockfilePath), 'patches');
+        const stat = tryStatSync(fullPath);
+        if (stat?.isDirectory()) {
+            content += stat.mtimeMs.toString();
+        }
+    }
+    // 第三部分：将配置添加到content的后面
+    const optimizeDeps = getDepOptimizationConfig(config, ssr);
+    content += JSON.stringify({
+        mode: process.env.NODE_ENV || config.mode,
+        //...
+    });
+    return getHash(content);
+}
+```
