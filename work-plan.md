@@ -90,3 +90,5 @@ export function createPluginHookUtils(
 ```
 
 搜索 sync 关键字，改成异步写法
+
+避免对 package.json 的重复读写
