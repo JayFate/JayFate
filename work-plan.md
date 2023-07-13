@@ -88,3 +88,5 @@ export function createPluginHookUtils(
 ...
 }
 ```
+
+搜索 sync 关键字，改成异步写法
