@@ -4,8 +4,8 @@
 
 一只前端切图仔，略懂Node.js *Amateur programming enthusiast*
 
-- 想要了解更多，请关注我的博客[秋风于渭水](https://www.JayFate.net)
-- Read more about my Blog [Blog](https://www.JayFate.net)
+- 想要了解更多，请关注我的博客[JayFate](https://github.com/JayFate/JayFate/issues)
+- Read more about my Blog [Blog](https://github.com/JayFate/JayFate/issues)
 
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=ffffff)
@@ -26,5 +26,5 @@
 - [docker 学习笔记](https://github.com/JayFate/JayFate/issues/2)
 - [Mac 安装及配置 oh-my-zsh](https://github.com/JayFate/JayFate/issues/4)
 - [使用nodejs&mysql&docker来搭建API服务](https://github.com/JayFate/JayFate/issues/5)
-- [AI 绘画与作画  stable diffusion webui 常见模型汇总及简介](https://www.JayFate.net/tutorial/583?pk_campaign=feed&pk_kwd=ai-%25e7%25bb%2598%25e7%2594%25bb%25e4%25b8%258e%25e4%25bd%259c%25e7%2594%25bb-stable-diffusion-webui-%25e5%25b8%25b8%25e8%25a7%2581%25e6%25a8%25a1%25e5%259e%258b%25e6%25b1%2587%25e6%2580%25bb%25e5%258f%258a%25e7%25ae%2580%25e4%25bb%258b)
+- [Google搜索技巧](https://github.com/JayFate/JayFate/issues/7)
 <!-- BLOG-POST-LIST:END -->
