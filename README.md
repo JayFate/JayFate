@@ -27,4 +27,5 @@
 - [Mac 安装及配置 oh-my-zsh](https://github.com/JayFate/JayFate/issues/4)
 - [使用nodejs&mysql&docker来搭建API服务](https://github.com/JayFate/JayFate/issues/5)
 - [Google搜索技巧](https://github.com/JayFate/JayFate/issues/7)
+- [...](https://github.com/JayFate/JayFate/issues)
 <!-- BLOG-POST-LIST:END -->
