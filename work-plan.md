@@ -26,6 +26,7 @@ extensions/multi-device-previewer/frontend/src/helper/screen.js
 5. 将 Vue、小程序转为快应用
 6. 快应用 playground
 7. Vite, Svelte 原理
+8. 预处理 node_odules 里面的 cjs 包成 esm，可以使用 @rollup/plugin-commonjs ，避免每次 rollup 都做转换
 
 
 
